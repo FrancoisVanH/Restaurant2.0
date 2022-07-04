@@ -1,0 +1,202 @@
+<!-- contact -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7fb55c8503.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- Navbar commune -->
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid px-md-5 mx-md-3">
+      <a class="navbar-brand" href="index.html">The Stardrop Saloon</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="nav-item nav-link d-none d-lg-block" href="menu.html">Menu</a> <a class="nav-item nav-link d-none d-lg-block" href="pictures.html">Pics</a> <a class="nav-item nav-link d-none d-lg-block" href="restaurant.html">Locations</a>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Mavs in 6</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-item nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="menu.html">Menu</a>   
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="pictures.html">Pics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="restaurant.html">Locations </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+<!-- titre -->
+<div class="jumbotron">
+  <div class="pt-5 mt-4 row justify-content-center">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container texte-center">
+              <h1 class="display-4 t-1">Contact</h1>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- formulaire de contact -->
+<form>
+<!-- formulaire small -->
+<div class="pt-1 px-2 mt-1 d-grid gap-3 formulaire d-lg-none">
+    <div class="form-floating ">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for=" floatingTextarea">First name</label>
+    </div>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Last Name</label>
+    </div>
+    <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+          <option selected>Subject of the message</option>
+          <option value="1">Food</option>
+          <option value="2">Service</option>
+          <option value="3">Location</option>
+        </select>
+        <label for="floatingSelect">Choose your subject</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Please write here, Gus we'll be pleased to read your massage!</label>
+      </div> 
+    <button type="submit" class="mt-3 ms-2 btn btn-success text-dark border border-danger" style="background-color:rgb(232, 214, 214) ;">Submit</button> 
+</div>
+<!-- formulaire desktop -->
+<div class="pt-2 mt-2 d-grid gap-3 formulaire d-none d-lg-block ">
+  <div class="container">
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for=" floatingTextarea">First name</label>
+    </div>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Last Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+          <option selected>Subject of the message</option>
+          <option value="1">Food</option>
+          <option value="2">Service</option>
+          <option value="3">Location</option>
+        </select>
+        <label for="floatingSelect">Choose your subject</label>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Please write here, Gus we'll be pleased to read your massage!</label>
+      </div>
+      <button type="submit" class="mt-3 btn btn-success text-dark border border-danger" style="background-color:rgb(232, 214, 214);">Submit</button>
+    </div>
+    
+  </div>
+</form>
+
+<!--footer commun -->
+
+<footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0);">
+  <!-- Grid container -->
+  <div class="container-fluid pt-lg-3">
+    <!-- Section: Social media -->
+    <section class="mb-5">
+
+
+
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0);">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <!-- Instagram -->
+        <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+  
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+        <div>© 2022 Copyright: <a class="text-dark" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">6rancois</a> </div>
+  </div>
+</footer>
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

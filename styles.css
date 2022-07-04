@@ -1,0 +1,55 @@
+/* CSS */
+.jumbotron, .cards, .nav {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    
+    text-align: center;
+}
+body {
+    
+background: -webkit-linear-gradient(171deg, rgb(212, 235, 213), rgb(232, 214, 214));
+background: linear-gradient(171deg, rgb(212, 235, 213), rgb(232, 214, 214));
+background-size: cover;
+
+
+}
+.navbar {
+    font-family: 'Comfortaa', cursive;
+}
+ol {
+    font-family: 'Comfortaa', cursive;
+}
+.carousel-inner {
+    font-family: 'Comfortaa', cursive;
+}
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+.map-responsive  iframe{
+
+    left:0;
+
+    top:0;
+
+    height:90%;
+
+    width:90%;
+
+    position:absolute;
+
+    padding-left: 10%;
+
+}
+.btn:hover {
+    color: #000000;
+    background-color: rgb(230, 189, 189);
+    border-color: red;
+}

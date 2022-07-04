@@ -1,0 +1,344 @@
+<!-- carousel photo -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7fb55c8503.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- Navbar commune -->
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid px-md-5 mx-md-3">
+      <a class="navbar-brand" href="index.html">The Stardrop Saloon</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="nav-item nav-link d-none d-lg-block" href="menu.html">Menu</a> <a class="nav-item nav-link d-none d-lg-block" href="restaurant.html">Locations</a> <a class="nav-item nav-link d-none d-lg-block" href="contact.html">Contact</a>
+
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">  
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Stardrop Saloon</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-item nav-link active" aria-current="page" href="pictures.html">Pics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="menu.html">Menu</a>   
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="restaurant.html">Locations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- title -->
+  <div class="jumbotron d-none d-lg-block">
+    <div class="pt-5 mt-4 row justify-content-center">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container texte-center">
+                <h1 class="display-4 t-1">Pics</h1>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- carousel sm-->
+  <div class="jumbotron d-lg-none">
+    <div class="pt-5 mt-4 row justify-content-center">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container texte-center">
+                <p class="display-3 t-1">Have a look! </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="carouselExampleControls" class="carousel ps-2 d-lg-none slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" class="d-block w-100" alt="egg">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" class="d-block w-100" alt="sld">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2R8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500" class="d-block w-100" alt="pzz">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" class="d-block w-100" alt="rmn">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1559180786-c6f26acc1111?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVlcnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" class="d-block w-100" alt="beer">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1626250505551-7744ce2984b2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500" class="d-block w-100" alt="tse">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1625535608282-8f181a38f9e7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c291cHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" class="d-block w-100" alt="soup">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1617828532964-62013f08578c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhbmNha2VzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500" class="d-block w-100"  alt="pnk">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  </div>
+  <!-- carousel lg-->
+  <div id="carouselExampleCaptions" class="carousel d-none d-lg-block slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Gallery thumbnails -->
+    
+  <div class="carousel-inner">
+    <div class="container">
+      <div class="carousel-item active">
+        <div class="row">   
+          <div class="container">
+            <h1 class="fw-light text-center text-lg-start px-1 ps-lg-2 pt-5 mt-4 mb-0">Click on the left or right side to slide.</h1>
+            <hr class="mt-2 mb-5">
+          
+            <div class="row text-center text-lg-start">
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" alt="egg">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" alt="sld">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2R8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500" alt="pzz">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" alt="rmn">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1559180786-c6f26acc1111?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVlcnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" alt="beer">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1626250505551-7744ce2984b2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500" alt="tse">
+                </a>
+              </div>
+            
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1625535608282-8f181a38f9e7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c291cHxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500" alt="soup">
+                </a>
+              </div>
+          
+              <div class="col-lg-3 col-md-4 col-6">
+                <a href="menu.html" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1617828532964-62013f08578c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhbmNha2VzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500" alt="pnk">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gallery -->
+    
+
+    <!-- img stacked -->
+        <div class="container">
+          <div class="carousel-item">
+            <h1 class="fw-light text-center text-lg-start px-1 ps-lg-2 pt-5 mt-4 mb-0">Our events.</h1>
+            <hr class="mt-2 mb-2">
+            <h3 class="fw-light text-center text-lg-start px-1 ps-lg-2 pt-5 mt-4 mb-0">Flower Festival</h3>
+            <hr class="mt-2 mb-3">
+            <div class="pt-4 mt-2 img">
+              <img src="https://stardewcommunitywiki.com/mediawiki/images/thumb/a/ad/Flower_Festival.jpg/800px-Flower_Festival.jpg" class="d-block w-100" alt="...">
+            </div>
+            <h3 class="fw-light text-center text-lg-start px-1 ps-lg-2 pt-5 mt-4 mb-0">Dance of the Moonlight</h3>
+            <hr class="mt-2 mb-3">
+            <div class="pt-4 mt-2 img">
+              <img src="https://stardewcommunitywiki.com/mediawiki/images/thumb/3/35/Dance_Of_The_Moonlight_Jellies.jpg/800px-Dance_Of_The_Moonlight_Jellies.jpg" class="d-block w-100" alt="...">
+            </div>
+            <h3 class="fw-light text-center text-lg-start px-1 ps-lg-2 pt-5 mb-0">Luau</h3>
+            <hr class="mt-2 mb-3">
+            <div class="pt-4 mt-2 img">
+              <img src="https://stardewcommunitywiki.com/mediawiki/images/thumb/a/af/Luau.png/800px-Luau.png" class="d-block w-100" alt="...">
+            </div>  
+          </div>
+        </div>
+          <!-- gallery -->
+        <div class="container">
+          <div class="carousel-item">
+            <div class="row">
+              <h1 class="fw-light text-center text-lg-start px-1 ps-lg-3 pt-5 mt-4 mb-0">Our wonderful generic landscapes.</h1>
+            <hr class="mt-2 mb-5">
+                <div class="col-lg-4 col-md-12 mb-3  mb-lg-0">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                  />
+
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Wintry Mountain Landscape"
+                  />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+                  />
+
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                  />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Waves at Sea"
+                  />
+
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Yosemite National Park"
+                  />
+                </div>
+              </div>
+          </div>
+        </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--footer commun -->
+
+  <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0);">
+    <!-- Grid container -->
+    <div class="container-fluid pt-lg-3">
+      <!-- Section: Social media -->
+      <section class="mb-5">
+  
+  
+  
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0);">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Instagram -->
+          <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+    
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+          <div>© 2022 Copyright: <a class="text-dark" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">6rancois</a> </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
